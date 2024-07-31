@@ -1,5 +1,5 @@
 ﻿using IlkSınıfPratigi;
-
+// Creating student informations.
 Person student1 = new Person();
 student1.Name = "Burak";
 student1.surname = "Kırıcı";
@@ -9,7 +9,7 @@ Person student2 = new Person();
 student2.name = "EmreCan";
 student2.surname = "Terkan";
 student2.birthday = DateTime.Today;
-
+//Creating teacher informations
 Person teacher1 = new Person();
 teacher1.name = "Burak";
 teacher1.surname = "Kırmaz";
@@ -20,6 +20,7 @@ teacher2.name = "CanEmre";
 teacher2.surname = "Terken";
 teacher2.birthday = DateTime.Today;
 
+//Writing the propertys(student and teacher)
 
 Console.WriteLine("Student informations: ");
 student1.WriteInfo();
