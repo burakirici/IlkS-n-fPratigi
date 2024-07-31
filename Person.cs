@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace IlkSınıfPratigi
 {
+    // Creating the class property's.
     public class Person
     {
         public string name;
@@ -47,6 +48,7 @@ namespace IlkSınıfPratigi
             }
         
         }
+        // Writing on the secreen that student and teacher property's class
         public void WriteInfo()
         {
             Console.WriteLine("Name: "+ name);
